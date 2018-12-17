@@ -7,36 +7,10 @@
   height: 40vmin;
 }
 
-.Header{
-  background-color: red;
-  padding: 10 10 10 10px;
+.navbar a:hover {
+  background: #ddd;
+  color: black;
 }
-
-.First-text {
-  text-align: left;
-  
-}
-
-.Second-text {
-  text-align: center;
-  
-}
-
-.Third-text {
-  text-align: center;
-  
-  
-}
-
-.Fourth-text {
-  text-align: right;
-  position: fixed;
-  top: 20px;
-  right: 50px;
-  
-}
-
-
 
 .App-header {
   background-color: #ffffff;
@@ -46,8 +20,8 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
+  color:blue;
+  }
 
 .App-link {
   color: #61dafb;
@@ -61,3 +35,4 @@
     transform: rotate(360deg);
   }
 }
+
