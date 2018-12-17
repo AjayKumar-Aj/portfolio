@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import { Link as Links } from 'react-router-dom';
+
 import { Navbar, Link, Paragraph } from './style.js';
 
 class TopBar extends Component {
     render() {
         return (
             <Navbar>
-                <Link href="#home">Home</Link>
-                <Link href="#news">News</Link>
-                <Link href="#contact">Contact</Link>
+                <Links to="/home">  <Link>Home</Link> </Links>
+                <Links to="/contact">  <Link>Contact</Link> </Links>
+                <Links to="/about">  <Link>About me</Link> </Links>
                 <Paragraph>Ajay</Paragraph>
             </Navbar>
         );
