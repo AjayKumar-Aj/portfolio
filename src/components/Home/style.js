@@ -14,14 +14,13 @@ export const Heading = styled.div`
     
 `;
 
-
-export const Text1 = styled.div`
+export const Image = styled.div`
     
-    padding: 50px;
     position: fixed;
-    color: black;
-    margin-top: 9%;
-    line-height: 40px;
+    width: 100%;
+    margin-top: 15%;
+    margin-left: 5%;
+   
     
 `;
 

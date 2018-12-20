@@ -6,12 +6,17 @@ import { Navbar, Link, Paragraph } from './style.js';
 class TopBar extends Component {
     render() {
         return (
-            <Navbar>
-                <Links to="/home">  <Link>Home</Link> </Links>
-                <Links to="/contact">  <Link>Contact</Link> </Links>
-                <Links to="/about">  <Link>About me</Link> </Links>
-                <Paragraph>Ajay</Paragraph>
-            </Navbar>
+            <div>    
+                <Navbar >
+                    <Links to="/contact">  <Link>Contact</Link></Links>
+                    <Links to="/about">  <Link>About me</Link></Links>
+                    <Links to="/home">  <Link>Home</Link> </Links>       
+                </Navbar>
+                
+                <Paragraph>Ajay</Paragraph> 
+            </div>
+
+            
         );
     }
 }

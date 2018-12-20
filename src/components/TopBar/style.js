@@ -1,31 +1,35 @@
 import styled from 'styled-components';
+import withRouter from 'react-router-dom/withRouter';
+
 
 export const Navbar = styled.div`
-    overflow: hidden;
+    
     background-color: #555;
     position: fixed;
     top: 0;
     width: 100%;
-    text-align: left;
+    text-align: right;
     padding: 10px;
-
+    
 `;
 
 export const Link = styled.div`
     float: right;
-    display: block;
+    display: inline;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    text-align: right;
+    padding: 14px 20px;
     text-decoration: none;
-    font-size: 17px;
-    margin-right: 10px;
+    font-size: 17px;   
+    
 `;
 
 export const Paragraph = styled.div`
-    color: white;
-    display: block;
-    text-align: left;
-    margin-left: 10px;
-    margin-top: 10px;
+    color: #f2f2f2;
+    font-size: 17px; 
+    position: fixed;
+    margin-left: 15px;
+    margin-top: 20px;
 `;
+
+
