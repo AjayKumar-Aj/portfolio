@@ -5,6 +5,7 @@ import { Navbar, Link, Paragraph } from './style.js';
 
 class TopBar extends Component {
     render() {
+        
         return (
             <div>    
                 <Navbar >
@@ -13,7 +14,8 @@ class TopBar extends Component {
                     <Links to="/home">  <Link>Home</Link> </Links>       
                 </Navbar>
                 
-                <Paragraph>Ajay</Paragraph> 
+                <Paragraph>Ajay</Paragraph>
+                
             </div>
 
             

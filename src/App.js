@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import {Switch, Link, Route, BrowserRouter as Router } from 'react-router-dom';
+import {Route, BrowserRouter as Router } from 'react-router-dom';
 import TopBar from './components/TopBar';
 import Body from './components/Body';
 import About from './components/About';
 import Home from './components/Home';
-import { Bar } from './style.js';
-import logo from './logo.svg';
+// import { Bar } from './style.js';
+// import logo from './logo.svg';
 import './App.css';
 
 export const Routing = (

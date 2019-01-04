@@ -2,7 +2,18 @@ import React, { Component } from 'react';
 import { Insta, Instaimg, Facebook, Fbimg, Twitter, Twitimg, Instatxt, Fbtxt, Twittxt } from './style.js';
 
 class Body extends Component {
+   constructor(props) {
+       super(props);
+        console.log("constructor");
+   }
+
+   componentWillUpdate() {
+       console.log("componentWillUpdate");
+   }
+   
     render() {
+        console.log("render");
+
         return (
                 <div width="100%">
                     <Insta width="200px">Instagram
